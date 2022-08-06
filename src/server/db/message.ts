@@ -1,6 +1,7 @@
+import Message from '../../Interfaces/Message';
 import  User  from '../../Interfaces/User';
 import {prisma} from './client';
-export default async function createUser(user:User){
+export default async function createMessage(message:Message){
   const {name,username} = user;
   console.log(user)
   console.log('name: ',name,'user name: ',username)

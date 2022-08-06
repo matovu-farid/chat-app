@@ -31,8 +31,9 @@ model Message {
 }
 
 model Room {
-    id      String    @id @default(uuid())
-    path    String    @unique
-    name    String
-    Message Message[]
+    id        String    @id @default(uuid())
+    serverId String    @unique
+    path      String    @unique
+    name      String
+    Message   Message[]
 }

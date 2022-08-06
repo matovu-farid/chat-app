@@ -17,6 +17,7 @@ model User {
     sentMessages Message[] @relation("send")
     createdAt    DateTime  @default(now())
     updatedAt    DateTime  @updatedAt
+    rooms        Room[]
 }
 
 model Message {
@@ -36,5 +37,6 @@ model Room {
     path     String    @unique
     name     String
     image    String?
-    messages  Message[]
+    messages Message[]
+    members  User[]
 }

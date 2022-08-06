@@ -1,6 +1,6 @@
 import Message from "../../Interfaces/Message";
 import { prisma } from "./client";
-export default async function createMessage(message: Message) {
+export  async function createMessage(message: Message) {
   const createMessage = prisma.message.create({
     data: {
       room: {
@@ -17,3 +17,14 @@ export default async function createMessage(message: Message) {
   });
   return await createMessage;
 }
+export async function getMessages(room:string) {
+  return await prisma.message.findMany({
+    where: {
+      roomId: room
+    }
+  })
+  
+}
+
+
+

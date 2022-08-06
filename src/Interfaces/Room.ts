@@ -1,6 +1,6 @@
 export default interface Room {
-  serverId: String
-  name: String
-  path: String
-  image?: String
+  serverId: string
+  name: string
+  path: string
+  image?: string
 }

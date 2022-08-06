@@ -1,18 +1,19 @@
-import Message from '../../Interfaces/Message';
-import  User  from '../../Interfaces/User';
-import {prisma} from './client';
-export default async function createMessage(message:Message){
-  const {name,username} = user;
-  console.log(user)
-  console.log('name: ',name,'user name: ',username)
-const createdUser = prisma.user.create(
-  {
-    data:{
-      name: name,
-      username: username,
-    }
-  }
-)
-return await createdUser;
-
+import Message from "../../Interfaces/Message";
+import { prisma } from "./client";
+export default async function createMessage(message: Message) {
+  const createMessage = prisma.message.create({
+    data: {
+      room: {
+        connect: { id: message.roomId },
+      },
+      sender: {
+        connect: {
+          id: message.senderId,
+        },
+      },
+      text: message.text,
+    },
+    include: { sender:true,room: true}
+  });
+  return await createMessage;
 }

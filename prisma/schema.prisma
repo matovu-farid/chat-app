@@ -36,5 +36,5 @@ model Room {
     path     String    @unique
     name     String
     image    String?
-    Message  Message[]
+    messages  Message[]
 }

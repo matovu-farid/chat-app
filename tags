@@ -1,0 +1,180 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/farid/Documents/projects/chat-app/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/d14f055e/
+# Automatically leverage output traces to reduce image size	README.md	/^   # Automatically leverage output traces to reduce image size$/;"	c
+# COPY --from=builder /app/next.config.js ./	README.md	/^   # COPY --from=builder \/app\/next.config.js .\/$/;"	c
+# Check https://github.com/nodejs/docker-node/tree/b4117f9333da4138b03a546ec926ef50a31506c3#nodealpine to understand why libc6-compat might be needed.	README.md	/^   # Check https:\/\/github.com\/nodejs\/docker-node\/tree\/b4117f9333da4138b03a546ec926ef50a315/;"	c
+# ENV NEXT_TELEMETRY_DISABLED 1	README.md	/^   # ENV NEXT_TELEMETRY_DISABLED 1$/;"	c
+# If using npm comment out above and use below instead	README.md	/^   # If using npm comment out above and use below instead$/;"	c
+# Install dependencies based on the preferred package manager	README.md	/^   # Install dependencies based on the preferred package manager$/;"	c
+# Install dependencies only when needed	README.md	/^   # Install dependencies only when needed$/;"	c
+# Learn more here: https://nextjs.org/telemetry	README.md	/^   # Learn more here: https:\/\/nextjs.org\/telemetry$/;"	c
+# Next.js collects completely anonymous telemetry data about general usage.	README.md	/^   # Next.js collects completely anonymous telemetry data about general usage.$/;"	c
+# Production image, copy all the files and run next	README.md	/^   # Production image, copy all the files and run next$/;"	c
+# RUN npm run build	README.md	/^   # RUN npm run build$/;"	c
+# Rebuild the source code only when needed	README.md	/^   # Rebuild the source code only when needed$/;"	c
+# Uncomment the following line in case you want to disable telemetry during runtime.	README.md	/^   # Uncomment the following line in case you want to disable telemetry during runtime.$/;"	c
+# Uncomment the following line in case you want to disable telemetry during the build.	README.md	/^   # Uncomment the following line in case you want to disable telemetry during the build.$/;"	c
+# You only need to copy next.config.js if you are NOT using the default configuration	README.md	/^   # You only need to copy next.config.js if you are NOT using the default configuration$/;"	c
+# https://nextjs.org/docs/advanced-features/output-file-tracing	README.md	/^   # https:\/\/nextjs.org\/docs\/advanced-features\/output-file-tracing$/;"	c
+0	.eslintrc.json	/^  "extends": ["next\/core-web-vitals"]$/;"	s	array:extends
+0	tsconfig.json	/^    "lib": ["dom", "dom.iterable", "esnext"],$/;"	s	array:compilerOptions.lib
+0	tsconfig.json	/^    "next-env.d.ts",$/;"	s	array:include
+0	tsconfig.json	/^  "exclude": ["node_modules"]$/;"	s	array:exclude
+1	tsconfig.json	/^    "lib": ["dom", "dom.iterable", "esnext"],$/;"	s	array:compilerOptions.lib
+1	tsconfig.json	/^    "next-auth.d.ts",$/;"	s	array:include
+2	tsconfig.json	/^    "**\/*.ts",$/;"	s	array:include
+2	tsconfig.json	/^    "lib": ["dom", "dom.iterable", "esnext"],$/;"	s	array:compilerOptions.lib
+3	tsconfig.json	/^    "**\/*.tsx",$/;"	s	array:include
+4	tsconfig.json	/^    "**\/*.js"$/;"	s	array:include
+@prisma/client	package.json	/^    "@prisma\/client": "^4.1.1",$/;"	s	object:dependencies
+@types/node	package.json	/^    "@types\/node": "18.0.0",$/;"	s	object:devDependencies
+@types/react	package.json	/^    "@types\/react": "18.0.14",$/;"	s	object:devDependencies
+@types/react-dom	package.json	/^    "@types\/react-dom": "18.0.5",$/;"	s	object:devDependencies
+A	prisma/migrations/20220806012927_add_user_room_many_to_many/migration.sql	/^    "A" TEXT NOT NULL,$/;"	E	table:_RoomToUser
+B	prisma/migrations/20220806012927_add_user_room_many_to_many/migration.sql	/^    "B" TEXT NOT NULL$/;"	E	table:_RoomToUser
+Create T3 App	README.md	/^# Create T3 App$/;"	c
+DATABASE_URL	src/env/schema.mjs	/^  DATABASE_URL: z.string().url(),$/;"	p	variable:anonymousObject2d3942fd0105
+Docker	README.md	/^### Docker$/;"	S	section:Create T3 App""How do I deploy this?
+How do I deploy this?	README.md	/^## How do I deploy this?$/;"	s	chapter:Create T3 App
+Message	prisma/migrations/20220805221723_model_creation/migration.sql	/^CREATE TABLE "Message" ($/;"	t
+Message	src/Interfaces/Message.ts	/^export default interface Message{ $/;"	i
+NODE_ENV	src/env/schema.mjs	/^  NODE_ENV: z.enum(["development", "test", "production"]),$/;"	p	variable:anonymousObject2d3942fd0105
+Room	prisma/migrations/20220806001023_add_rooms/migration.sql	/^CREATE TABLE "Room" ($/;"	t
+Room	src/Interfaces/Room.ts	/^export default interface Room {$/;"	i
+Room_path_key	prisma/migrations/20220806001023_add_rooms/migration.sql	/^CREATE UNIQUE INDEX "Room_path_key" ON "Room"("path");$/;"	i	table:Room
+Room_serverId_key	prisma/migrations/20220806001547_add_server_id/migration.sql	/^CREATE UNIQUE INDEX "Room_serverId_key" ON "Room"("serverId");$/;"	i	table:Room
+SocketHandler	src/pages/api/socket.ts	/^export default function SocketHandler(_:any, res:any) {$/;"	f
+Useful resources	README.md	/^## Useful resources$/;"	s	chapter:# https://nextjs.org/docs/advanced-features/output-file-tracing
+User	prisma/migrations/20220805204221_init/migration.sql	/^CREATE TABLE "User" ($/;"	t
+User	src/Interfaces/User.ts	/^export default interface User {$/;"	i
+User_username_key	prisma/migrations/20220805221723_model_creation/migration.sql	/^CREATE UNIQUE INDEX "User_username_key" ON "User"("username");$/;"	i	table:User
+Vercel	README.md	/^### Vercel$/;"	S	section:Create T3 App""How do I deploy this?
+What's next? How do I make an app with this?	README.md	/^## What's next? How do I make an app with this?$/;"	s	chapter:Create T3 App
+Why are there `.js` files in here?	README.md	/^## Why are there `.js` files in here?$/;"	s	chapter:Create T3 App
+_RoomToUser	prisma/migrations/20220806012927_add_user_room_many_to_many/migration.sql	/^CREATE TABLE "_RoomToUser" ($/;"	t
+_RoomToUser_AB_unique	prisma/migrations/20220806012927_add_user_room_many_to_many/migration.sql	/^CREATE UNIQUE INDEX "_RoomToUser_AB_unique" ON "_RoomToUser"("A", "B");$/;"	i	table:_RoomToUser
+_RoomToUser_B_index	prisma/migrations/20220806012927_add_user_room_many_to_many/migration.sql	/^CREATE INDEX "_RoomToUser_B_index" ON "_RoomToUser"("B");$/;"	i	table:_RoomToUser
+_clientEnv	src/env/client.mjs	/^const _clientEnv = clientSchema.safeParse(clientEnv);$/;"	C
+_serverEnv	src/env/server.mjs	/^const _serverEnv = serverSchema.safeParse(process.env);$/;"	C
+addToRoom	src/server/db/room.ts	/^export async function addToRoom(userRoomSession: {$/;"	f
+allowJs	tsconfig.json	/^    "allowJs": true,$/;"	b	object:compilerOptions
+anonymousObject2d3942fd0105	src/env/schema.mjs	/^export const serverSchema = z.object({$/;"	v
+anonymousObject6b14d2c00105	src/data/rooms.js	/^    {$/;"	v
+anonymousObject6b14d2c00205	src/data/rooms.js	/^    {$/;"	v
+anonymousObject6b14d2c00305	src/data/rooms.js	/^    {$/;"	v
+anonymousObjectba01d7e00105	next.config.mjs	/^export default defineNextConfig({$/;"	v
+autoprefixer	package.json	/^    "autoprefixer": "^10.4.8",$/;"	s	object:devDependencies
+build	package.json	/^    "build": "next build",$/;"	s	object:scripts
+clientEnv	src/env/schema.mjs	/^export const clientEnv = {$/;"	C
+clientSchema	src/env/schema.mjs	/^export const clientSchema = z.object({$/;"	C
+compilerOptions	tsconfig.json	/^  "compilerOptions": {$/;"	o
+createMessage	src/server/db/message.ts	/^  const createMessage = prisma.message.create({$/;"	C	function:createMessage
+createMessage	src/server/db/message.ts	/^export  async function createMessage(message: Message) {$/;"	f
+createUser	src/server/db/user.ts	/^export default async function createUser(user:User){$/;"	f
+createdAt	prisma/migrations/20220805221723_model_creation/migration.sql	/^    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,$/;"	E	table:Message
+createdRoom	src/pages/api/rooms/new.ts	/^    const createdRoom =  await createroom(room)$/;"	C
+createdRoom	src/server/db/room.ts	/^	const createdRoom = prisma.room.create({$/;"	C	function:createroom
+createdUser	src/pages/api/users/new.ts	/^    const createdUser =  await createUser(user)$/;"	C
+createdUser	src/server/db/user.ts	/^const createdUser = prisma.user.create($/;"	C	function:createUser
+createroom	src/server/db/room.ts	/^export async function createroom(room: Room) {$/;"	f
+defineNextConfig	next.config.mjs	/^function defineNextConfig(config) {$/;"	f
+dependencies	package.json	/^  "dependencies": {$/;"	o
+dev	package.json	/^    "dev": "next dev",$/;"	s	object:scripts
+devDependencies	package.json	/^  "devDependencies": {$/;"	o
+env	src/env/client.mjs	/^export const env = _clientEnv.data;$/;"	C
+env	src/env/server.mjs	/^export const env = { ..._serverEnv.data, ...clientEnv };$/;"	C
+esModuleInterop	tsconfig.json	/^    "esModuleInterop": true,$/;"	b	object:compilerOptions
+eslint	package.json	/^    "eslint": "8.18.0",$/;"	s	object:devDependencies
+eslint-config-next	package.json	/^    "eslint-config-next": "12.2.3",$/;"	s	object:devDependencies
+examples	src/pages/api/examples.ts	/^const examples = async (req: NextApiRequest, res: NextApiResponse) => {$/;"	C
+exclude	tsconfig.json	/^  "exclude": ["node_modules"]$/;"	a
+extends	.eslintrc.json	/^  "extends": ["next\/core-web-vitals"]$/;"	a
+forceConsistentCasingInFileNames	tsconfig.json	/^    "forceConsistentCasingInFileNames": true,$/;"	b	object:compilerOptions
+formatErrors	src/env/client.mjs	/^export const formatErrors = ($/;"	f
+getMessages	src/server/db/message.ts	/^export async function getMessages(room:string) {$/;"	f
+getRooms	src/server/db/room.ts	/^export async function getRooms(userId: string) {$/;"	f
+getUsersInRoom	src/server/db/room.ts	/^export async function getUsersInRoom(roomId: string) {$/;"	f
+id	prisma/migrations/20220805204221_init/migration.sql	/^    "id" SERIAL NOT NULL,$/;"	E	table:User
+id	prisma/migrations/20220805221723_model_creation/migration.sql	/^    "id" TEXT NOT NULL,$/;"	E	table:Message
+id	prisma/migrations/20220806001023_add_rooms/migration.sql	/^    "id" TEXT NOT NULL,$/;"	E	table:Room
+id	src/data/rooms.js	/^      id: 1,$/;"	p	variable:anonymousObject6b14d2c00105
+id	src/data/rooms.js	/^      id: 2,$/;"	p	variable:anonymousObject6b14d2c00205
+id	src/data/rooms.js	/^      id: 3,$/;"	p	variable:anonymousObject6b14d2c00305
+image	src/Interfaces/Room.ts	/^  image?: string$/;"	p	interface:Room
+image	src/data/rooms.js	/^      image: "https:\/\/banner2.cleanpng.com\/20190730\/shy\/kisspng-photographic-film-movie-cam/;"	p	variable:anonymousObject6b14d2c00205
+image	src/data/rooms.js	/^      image: "https:\/\/img.favpng.com\/5\/0\/17\/xbox-one-controller-background-png-favpng-hR9a/;"	p	variable:anonymousObject6b14d2c00105
+image	src/data/rooms.js	/^      image: 'https:\/\/www.logodesign.net\/logo\/smoking-burger-with-lettuce-3624ld.png?size=2&/;"	p	variable:anonymousObject6b14d2c00305
+include	tsconfig.json	/^  "include": [$/;"	a
+incremental	tsconfig.json	/^    "incremental": true,$/;"	b	object:compilerOptions
+io	src/pages/api/socket.ts	/^  const io = new Server(res.socket.server);$/;"	C	function:SocketHandler
+isolatedModules	tsconfig.json	/^    "isolatedModules": true,$/;"	b	object:compilerOptions
+jsx	tsconfig.json	/^    "jsx": "preserve",$/;"	s	object:compilerOptions
+lib	tsconfig.json	/^    "lib": ["dom", "dom.iterable", "esnext"],$/;"	a	object:compilerOptions
+lint	package.json	/^    "lint": "next lint",$/;"	s	object:scripts
+module	tsconfig.json	/^    "module": "esnext",$/;"	s	object:compilerOptions
+moduleResolution	tsconfig.json	/^    "moduleResolution": "node",$/;"	s	object:compilerOptions
+name	package.json	/^  "name": "chat-app",$/;"	s
+name	prisma/migrations/20220805204221_init/migration.sql	/^    "name" TEXT NOT NULL,$/;"	E	table:User
+name	prisma/migrations/20220806001023_add_rooms/migration.sql	/^    "name" TEXT NOT NULL,$/;"	E	table:Room
+name	src/Interfaces/Room.ts	/^  name: string$/;"	p	interface:Room
+name	src/Interfaces/User.ts	/^      name: string,$/;"	p	interface:User
+name	src/data/rooms.js	/^      name: "food",$/;"	p	variable:anonymousObject6b14d2c00305
+name	src/data/rooms.js	/^      name: "games",$/;"	p	variable:anonymousObject6b14d2c00105
+name	src/data/rooms.js	/^      name: "movies",$/;"	p	variable:anonymousObject6b14d2c00205
+name	src/server/db/user.ts	/^  const {name,username} = user;$/;"	C	function:createUser
+newRoom	src/pages/api/rooms/new.ts	/^const newRoom = async (req: NextApiRequest, res: NextApiResponse) => {$/;"	C
+next	package.json	/^    "next": "12.2.3",$/;"	s	object:dependencies
+noEmit	tsconfig.json	/^    "noEmit": true,$/;"	b	object:compilerOptions
+noUncheckedIndexedAccess	tsconfig.json	/^    "noUncheckedIndexedAccess": true$/;"	b	object:compilerOptions
+path	prisma/migrations/20220806001023_add_rooms/migration.sql	/^    "path" TEXT NOT NULL,$/;"	E	table:Room
+path	src/Interfaces/Room.ts	/^  path: string$/;"	p	interface:Room
+path	src/data/rooms.js	/^      path: "\/food",$/;"	p	variable:anonymousObject6b14d2c00305
+path	src/data/rooms.js	/^      path: "\/games",$/;"	p	variable:anonymousObject6b14d2c00105
+path	src/data/rooms.js	/^      path: "\/movies",$/;"	p	variable:anonymousObject6b14d2c00205
+postcss	package.json	/^    "postcss": "^8.4.14",$/;"	s	object:devDependencies
+postinstall	package.json	/^    "postinstall": "prisma generate"$/;"	s	object:scripts
+prisma	package.json	/^    "prisma": "^4.1.1",$/;"	s	object:devDependencies
+prisma	src/server/db/client.ts	/^  var prisma: PrismaClient | undefined;$/;"	v
+prisma	src/server/db/client.ts	/^export const prisma =$/;"	C
+private	package.json	/^  "private": true,$/;"	b
+react	package.json	/^    "react": "18.2.0",$/;"	s	object:dependencies
+react-dom	package.json	/^    "react-dom": "18.2.0",$/;"	s	object:dependencies
+reactStrictMode	next.config.mjs	/^  reactStrictMode: true,$/;"	p	variable:anonymousObjectba01d7e00105
+receipientId	prisma/migrations/20220805221723_model_creation/migration.sql	/^    "receipientId" TEXT NOT NULL,$/;"	E	table:Message
+resolveJsonModule	tsconfig.json	/^    "resolveJsonModule": true,$/;"	b	object:compilerOptions
+room	src/pages/api/rooms/new.ts	/^    const room:Room = req.body;$/;"	C
+roomId	src/Interfaces/Message.ts	/^ roomId: string,$/;"	p	interface:Message
+rooms	src/data/rooms.js	/^  const rooms = [$/;"	v
+scripts	package.json	/^  "scripts": {$/;"	o
+senderId	prisma/migrations/20220805221723_model_creation/migration.sql	/^    "senderId" TEXT NOT NULL,$/;"	E	table:Message
+senderId	src/Interfaces/Message.ts	/^ senderId: string$/;"	p	interface:Message
+serverId	src/Interfaces/Room.ts	/^  serverId: string$/;"	p	interface:Room
+serverSchema	src/env/schema.mjs	/^export const serverSchema = z.object({$/;"	C
+skipLibCheck	tsconfig.json	/^    "skipLibCheck": true,$/;"	b	object:compilerOptions
+socket.io	package.json	/^    "socket.io": "^4.5.1",$/;"	s	object:dependencies
+socket.io-client	package.json	/^    "socket.io-client": "^4.5.1",$/;"	s	object:dependencies
+start	package.json	/^    "start": "next start",$/;"	s	object:scripts
+strict	tsconfig.json	/^    "strict": true,$/;"	b	object:compilerOptions
+swcMinify	next.config.mjs	/^  swcMinify: true,$/;"	p	variable:anonymousObjectba01d7e00105
+tailwindcss	package.json	/^    "tailwindcss": "^3.1.8",$/;"	s	object:devDependencies
+target	tsconfig.json	/^    "target": "es5",$/;"	s	object:compilerOptions
+text	prisma/migrations/20220805221723_model_creation/migration.sql	/^    "text" TEXT NOT NULL,$/;"	E	table:Message
+text	src/Interfaces/Message.ts	/^ text: string$/;"	p	interface:Message
+typescript	package.json	/^    "typescript": "4.7.4"$/;"	s	object:devDependencies
+updatedAt	prisma/migrations/20220805221723_model_creation/migration.sql	/^    "updatedAt" TIMESTAMP(3) NOT NULL,$/;"	E	table:Message
+user	src/pages/api/users/new.ts	/^    const user:User = req.body;$/;"	C
+user	src/pages/api/users/new.ts	/^const user = async (req: NextApiRequest, res: NextApiResponse) => {$/;"	C
+username	src/Interfaces/User.ts	/^      username:string, $/;"	p	interface:User
+username	src/server/db/user.ts	/^  const {name,username} = user;$/;"	C	function:createUser
+users	src/server/db/room.ts	/^	const users = prisma.user.findMany({$/;"	C	function:getUsersInRoom
+version	package.json	/^  "version": "0.1.0",$/;"	s
+zod	package.json	/^    "zod": "^3.17.3"$/;"	s	object:dependencies
